@@ -12,7 +12,7 @@ namespace Conversion_DWG
             Console.WriteLine("INICIO DO PROCESSO: " + DateTime.Now);
 
             //==============================================================
-            //string path = @"\\10.21.1.176\Raymound"; // Administrative share 
+            //string path = @"\\10.21.1.176\C$\Raymound"; // Administrative share 
             string path = @"\\10.21.0.22\Inobag\Publico\LucasChagas\Raymond"; // Valid share name
 
             DirectoryInfo Dir = new DirectoryInfo(@$"{path}");
