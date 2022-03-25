@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.lib.x64\11.3.0.1681\build\Atalasoft.dotImage.Lib.x64.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.lib.x64\11.3.0.1681\build\Atalasoft.dotImage.Lib.x64.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.x64\11.3.0.1681\build\Atalasoft.dotImage.x64.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.x64\11.3.0.1681\build\Atalasoft.dotImage.x64.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.dwg.x64\11.3.0.1681\build\Atalasoft.dotImage.Dwg.x64.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.dwg.x64\11.3.0.1681\build\Atalasoft.dotImage.Dwg.x64.targets')" />
+  </ImportGroup>
+</Project>
